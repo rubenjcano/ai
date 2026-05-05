@@ -1,22 +1,22 @@
 # Python AI Developer — Learning Path
 
-Proyecto de aprendizaje estructurado para el rol de **Python Developer (IA)**, cubriendo el stack completo del puesto: desde ML clásico hasta despliegue en producción.
+Structured learning project for the **Python Developer (AI)** role, covering the full stack: from classical ML to production deployment.
 
-> Parte del repositorio [`ai`](../) · Rama de aprendizaje aplicado
-
----
-
-## Contexto
-
-Este proyecto nació para preparar el rol de **Desarrollador Python (IA)** con foco en:
-- Machine Learning y Deep Learning con PyTorch
-- Modelos probabilísticos y bayesianos (HMM, Pyro)
-- Transformers y HuggingFace
-- Despliegue en entornos HPC y producción
+> Part of the [`ai`](../) repository · Applied learning branch
 
 ---
 
-## Estructura
+## Context
+
+This project was built to prepare for a **Python AI Developer** role focused on:
+- Machine Learning and Deep Learning with PyTorch
+- Probabilistic and Bayesian models (HMM, Pyro)
+- Transformers and HuggingFace
+- Deployment in HPC and production environments
+
+---
+
+## Structure
 
 ```
 python-ai-developer/
@@ -41,92 +41,92 @@ python-ai-developer/
 
 ## Roadmap
 
-### Fase 1 — Fundamentos de ML `semanas 1–3`
+### Phase 1 — ML Fundamentals `weeks 1–3`
 
-| Tema | Estado |
+| Topic | Status |
 |---|---|
-| Tipos de aprendizaje: supervisado, no supervisado, refuerzo | ⬜ |
-| Algoritmos clásicos: regresión, árboles, SVM, KNN | ⬜ |
-| Evaluación: métricas, cross-validation, overfitting | ⬜ |
-| Pipeline end-to-end con scikit-learn | ⬜ |
+| Learning types: supervised, unsupervised, reinforcement | ⬜ |
+| Classic algorithms: regression, trees, SVM, KNN | ⬜ |
+| Evaluation: metrics, cross-validation, overfitting | ⬜ |
+| End-to-end pipeline with scikit-learn | ⬜ |
 
 → [`01_ml_fundamentals.ipynb`](01_ml_fundamentals/01_ml_fundamentals.ipynb)
 
 ---
 
-### Fase 2 — Deep Learning con PyTorch `semanas 4–7`
+### Phase 2 — Deep Learning with PyTorch `weeks 4–7`
 
-| Tema | Estado |
+| Topic | Status |
 |---|---|
-| Tensores y autograd | ⬜ |
-| Redes neuronales: capas, activaciones, backpropagation | ⬜ |
-| Loop de entrenamiento: optimizadores, loss, epochs | ⬜ |
-| CNN y RNN básicas | ⬜ |
+| Tensors and autograd | ⬜ |
+| Neural networks: layers, activations, backpropagation | ⬜ |
+| Training loop: optimizers, loss functions, epochs | ⬜ |
+| Basic CNN and RNN | ⬜ |
 
 → [`02_deep_learning_pytorch.ipynb`](02_deep_learning_pytorch/02_deep_learning_pytorch.ipynb)
 
 ---
 
-### Fase 3 — Modelos Probabilísticos y Bayesianos `semanas 8–11`
+### Phase 3 — Probabilistic and Bayesian Models `weeks 8–11`
 
-| Tema | Estado |
+| Topic | Status |
 |---|---|
-| Probabilidad, distribuciones, Teorema de Bayes | ⬜ |
+| Probability, distributions, Bayes' Theorem | ⬜ |
 | Hidden Markov Models (HMM) | ⬜ |
-| Inferencia variacional y MCMC | ⬜ |
-| Pyro: modelos probabilísticos sobre PyTorch | ⬜ |
+| Variational inference and MCMC | ⬜ |
+| Pyro: probabilistic models on top of PyTorch | ⬜ |
 
 → [`03_probabilistic_models.ipynb`](03_probabilistic_models/03_probabilistic_models.ipynb)
 
 ---
 
-### Fase 4 — Transformers y HuggingFace `semanas 12–14`
+### Phase 4 — Transformers and HuggingFace `weeks 12–14`
 
-| Tema | Estado |
+| Topic | Status |
 |---|---|
-| Arquitectura Transformer y mecanismo de atención | ⬜ |
-| Pipelines y tokenizers de HuggingFace | ⬜ |
-| Fine-tuning de modelos preentrenados | ⬜ |
-| `datasets` y `evaluate` de HuggingFace | ⬜ |
+| Transformer architecture and attention mechanism | ⬜ |
+| HuggingFace pipelines and tokenizers | ⬜ |
+| Fine-tuning pretrained models | ⬜ |
+| HuggingFace `datasets` and `evaluate` | ⬜ |
 
 → [`04_transformers_huggingface.ipynb`](04_transformers_huggingface/04_transformers_huggingface.ipynb)
 
 ---
 
-### Fase 5 — Feature Engineering y Evaluación `semanas 15–16`
+### Phase 5 — Feature Engineering and Evaluation `weeks 15–16`
 
-| Tema | Estado |
+| Topic | Status |
 |---|---|
-| Limpieza de datos: nulos, outliers | ⬜ |
-| Encoding, escalado, transformaciones | ⬜ |
-| Selección de features e importancia | ⬜ |
-| Métricas avanzadas: ROC-AUC, F1, Average Precision | ⬜ |
+| Data cleaning: null values, outliers | ⬜ |
+| Encoding, scaling, transformations | ⬜ |
+| Feature selection and importance | ⬜ |
+| Advanced metrics: ROC-AUC, F1, Average Precision | ⬜ |
 
 → [`05_feature_engineering.ipynb`](05_feature_engineering/05_feature_engineering.ipynb)
 
 ---
 
-### Fase 6 — HPC y Linux `semanas 17–18`
+### Phase 6 — HPC and Linux `weeks 17–18`
 
-| Tema | Estado |
+| Topic | Status |
 |---|---|
-| Comandos Linux esenciales para Data Science | ⬜ |
-| Gestión de entornos: conda, venv | ⬜ |
-| SLURM: lanzar y gestionar jobs en clústeres | ⬜ |
-| Paralelización: multiprocessing, joblib, CUDA | ⬜ |
+| Essential Linux commands for Data Science | ⬜ |
+| Environment management: conda, venv | ⬜ |
+| SLURM: submitting and managing cluster jobs | ⬜ |
+| Parallelization: multiprocessing, joblib, CUDA | ⬜ |
 
 → [`06_hpc_linux_workflows.ipynb`](06_hpc_linux_workflows/06_hpc_linux_workflows.ipynb)
 
 ---
 
-### Fase 7 — Despliegue en Producción `semanas 19–20`
+### Phase 7 — Production Deployment `weeks 19–20`
 
-| Tema | Estado |
+| Topic | Status |
 |---|---|
-| Serialización: pickle, TorchScript | ⬜ |
-| APIs con FastAPI | ⬜ |
-| Docker: contenerizar un modelo | ⬜ |
-| MLflow: tracking de experimentos | ⬜ |
+| Serialization: pickle, TorchScript | ⬜ |
+| REST APIs with FastAPI | ⬜ |
+| Docker: containerizing a model | ⬜ |
+| MLflow: experiment tracking | ⬜ |
 
 → [`07_model_deployment.ipynb`](07_model_deployment/07_model_deployment.ipynb)
 
@@ -150,9 +150,9 @@ pip install scikit-learn pandas numpy matplotlib seaborn
 pip install fastapi uvicorn mlflow jupyter
 ```
 
-## Recursos
+## Resources
 
-| Recurso | Enlace |
+| Resource | Link |
 |---|---|
 | Fast.ai — Practical Deep Learning | https://course.fast.ai |
 | HuggingFace Course | https://huggingface.co/learn |
